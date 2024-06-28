@@ -37,8 +37,10 @@
 
             <dt>Technologies</dt>
             @foreach ($project->technologies as $technology)
-                <dd style="background-color: {{ $technology->color }}" class="d-inline p-1 rounded text-white">
-                    {{ $technology->name }}</dd>
+            <div>
+                <dd class="d-inline p-1">{{ $technology->name }}</dd>
+                <span class="badge rounded-circle" style="background-color: {{ $technology->color }}">tag</span>
+            </div>
             @endforeach
 
             {{-- <dt>File Size</dt>
