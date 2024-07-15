@@ -13,7 +13,7 @@
             <h1>There are no Projects</h1>
         </div>
     @else
-        <table class="table">
+        <table class="table mt-3">
             <thead>
                 <tr>
                     <th scope="col">Title</th>
